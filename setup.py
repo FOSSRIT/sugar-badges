@@ -6,7 +6,7 @@ from setuptools import setup
 
 setup(
     name='sugar-badges',
-    version='0.1.0',
+    version='0.1.1',
     description='Award badges in Sugar',
     author="David Wilson",
     author_email="daw4475@rit.edu",
