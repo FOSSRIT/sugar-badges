@@ -7,6 +7,8 @@ This library is used to add a badge feature to your Sugar activity or game.  Bad
 
 Badges can be displayed by installing and running the Sash activity found here https://github.com/FOSSRIT/Sash
 
+sugar-badges is pip installable (using the command "pip install sugar-badges") if you use pip. We reccommend doing your development with sugar-badges in a virtual environment just to be safe.
+
 To use the badge library in your existing project you will need to add this line to the top of your Python file:
 
 from badges import badges
