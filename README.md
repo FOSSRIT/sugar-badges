@@ -11,15 +11,21 @@ sugar-badges is pip installable (using the command "pip install sugar-badges"). 
 
 To use the badge library in your existing project you will need to add this line to the top of your Python file:
 
-from sugar_badges import badges
+```python
+    from sugar_badges import badges
+```
 
 To enable badges in your game, add this line to your init:
 
-self.badges = badges(activity_name, activity_bundle_id)
+```python
+    self.badges = badges(activity_name, activity_bundle_id)
+```
 
 And finally, to award badges you should make a call to the award method in badges.py using this format:
 
-self.badges.award(badge_name, badge_description)
+```python
+    self.badges.award(badge_name, badge_description)
+```
 
 Badge images should be stored in a badges folder. The filenames should match the badge names you use when calling "award".
 
